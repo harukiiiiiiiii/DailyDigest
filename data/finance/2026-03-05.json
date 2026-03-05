@@ -1,0 +1,109 @@
+{
+  "date": "2026-03-05",
+  "weekday": "周四",
+  "channel": "finance",
+  "topic": "全球股市科技板块回暖，中国两会定调“十五五”规划",
+  "digest": "今日全球市场聚焦中美宏观动向。中国两会设定4.5%-5.0%的GDP目标，A股受科技创新政策提振逆势上涨；美股科技与半导体板块强劲反弹。此外，比特币稳守7万美元，市场静待美联储3月议息会议及中概股财报。",
+  "articles": [
+    {
+      "title": "中国两会设定GDP增长目标，A股受“十五五”科技创新政策提振逆势上涨",
+      "summary": "2026年3月5日，中国A股市场在全国两会开幕后表现积极。尽管政府将2026年GDP增长目标设定在4.5%–5.0%的较低区间，但市场对“十五五”规划中关于加大创新、高科技产业和基础科研投入，以及提振消费占比的承诺反应正面。受此提振，沪指上涨0.64%重回4100点，深证成指上涨1.23%。科技与电力设备板块领涨，佰维存储、新易盛、中国西电等个股涨幅显著，反映出资金对政策导向的高度认同。",
+      "source": "Trading Economics",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.95,
+      "tags": [
+        "A股",
+        "宏观经济",
+        "全国两会"
+      ],
+      "image": "https://picsum.photos/seed/finance-2026-03-05-0/800/400",
+      "url": "https://tradingeconomics.com/china/stock-market",
+      "context": "中国长期经济规划的细节对全球供应链和跨国企业的战略布局具有深远影响。A股市场对两会政策的积极反应，显示出投资者对中国经济向高质量、高科技转型的信心。"
+    },
+    {
+      "title": "美股科技与半导体板块强劲反弹，英伟达与美光领涨",
+      "summary": "2026年3月5日，美股三大股指在经历波动后企稳反弹，纳斯达克综合指数在科技股和半导体板块的带动下表现出色。英伟达上涨1.7%，特斯拉上涨3.4%，美光科技大涨5.6%，闪迪（SanDisk）亦上涨6%。市场情绪受到地缘政治局势稍微缓解及AI基础设施持续需求的提振，暂时消化了即将生效的15%全球关税预期。投资者正密切关注即将公布的初请失业金数据及盘后Marvell的财报，以进一步确认行业增长趋势。",
+      "source": "Trading Economics",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.92,
+      "tags": [
+        "美股",
+        "半导体",
+        "科技股"
+      ],
+      "image": "https://picsum.photos/seed/finance-2026-03-05-1/800/400",
+      "url": "https://tradingeconomics.com/united-states/stock-market",
+      "context": "半导体是美股科技股的领头羊，其走势对纳斯达克指数有决定性影响。AI基础设施需求和存储芯片价格回暖是支撑当前美股估值的核心动力。"
+    },
+    {
+      "title": "美联储维持利率不变，市场高度关注3月FOMC会议信号",
+      "summary": "根据最新披露的信息，美联储在2026年1月的会议上将联邦基金利率维持在3.5%–3.75%的区间，暂停了2025年的降息趋势。美联储内部对未来路径存在分歧：部分官员支持在通胀下降时进一步降息，而另一些人则担忧通胀韧性。下一次FOMC会议定于2026年3月17-18日举行，届时将公布最新的利率决议与点阵图。市场正密切关注其政策转向的信号，以评估全年流动性环境。",
+      "source": "Federal Reserve / Trading Economics",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.9,
+      "tags": [
+        "美联储",
+        "利率政策",
+        "宏观经济"
+      ],
+      "image": "https://picsum.photos/seed/finance-2026-03-05-2/800/400",
+      "url": "https://tradingeconomics.com/united-states/interest-rate",
+      "context": "美联储的利率政策是全球金融市场的核心驱动力，直接影响全球资产定价、美元走势和市场流动性。3月会议将为全年的货币政策路径定调。"
+    },
+    {
+      "title": "比特币稳守7万美元大关，现货ETF持续吸引机构资金流入",
+      "summary": "截至2026年3月5日，比特币价格稳定在70,000美元上方，盘中一度触及72,500美元，表现优于黄金等传统避险资产。分析指出，尽管地缘政治不确定性依然存在，但市场对货币政策转向宽松的预期以及比特币现货ETF的持续资金流入是主要支撑因素，仅3月4日单日净流入即达1.55亿美元。此外，以太坊（ETH）亦重回2,100美元上方，加密货币市场整体呈现强劲的复苏态势。",
+      "source": "The Business Times",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.88,
+      "tags": [
+        "加密货币",
+        "比特币",
+        "ETF"
+      ],
+      "image": "https://picsum.photos/seed/finance-2026-03-05-3/800/400",
+      "url": "https://www.businesstimes.com.sg/wealth/crypto-alternative-assets/bitcoin-holds-firm-above-us70000-global-assets-recover",
+      "context": "加密货币已成为全球财经的重要组成部分，比特币的价格波动和ETF流入数据是衡量全球市场风险偏好和流动性预期的重要风向标。"
+    },
+    {
+      "title": "京东、哔哩哔哩等多家中外巨头今日发布财报",
+      "summary": "2026年3月5日美股盘前，多家重要企业相继发布财报。中概股方面，市场高度关注京东（JD.com）和哔哩哔哩（Bilibili）的业绩，分析师预计其数据将反映中国消费市场的复苏进度。国际市场方面，加拿大自然资源（CNQ）发布了最新季报，市场聚焦其2026年的产量指引和资本支出计划；美国零售巨头克罗格（Kroger）及网络设备商Ciena等也将于今日公布最新季度业绩，为投资者调整仓位提供依据。",
+      "source": "Nasdaq",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.85,
+      "tags": [
+        "财报",
+        "中概股",
+        "美股"
+      ],
+      "image": "https://picsum.photos/seed/finance-2026-03-05-4/800/400",
+      "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-march-5-2026-cnq-cien-kr-jd-burl-bj-ttc-bili-vsco-lqda-ampx-gsl",
+      "context": "财报季数据直接影响个股及相关板块的股价表现。中概股财报是观察中国内需的窗口，而能源股业绩则是评估全球通胀压力和工业需求的重要参考。"
+    }
+  ],
+  "meta": {
+    "agents_used": [
+      "gemini"
+    ],
+    "total_raw": 8,
+    "after_dedup": 5,
+    "final_selected": 5,
+    "generated_at": "2026-03-05T07:57:23.861Z",
+    "cost_usd": 0.021564
+  }
+}

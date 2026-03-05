@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-04",
+  "weekday": "周三",
+  "channel": "finance",
+  "topic": "鲍威尔国会证词偏鹰，亚洲股市普跌日元跌破151",
+  "digest": "美联储主席鲍威尔国会证词称不急于降息，需更多通胀回落证据。美股尾盘跳水，亚洲股市周三普跌。日元跌破151关口，日本官员暗示可能干预。中国两会政府工作报告发布，GDP目标5%左右。欧央行维持利率不变，拉加德暗示6月降息。",
+  "articles": [
+    {
+      "title": "鲍威尔国会证词：不急于降息，需更多通胀回落证据",
+      "summary": "美联储主席鲍威尔周三出席国会半年度货币政策听证会时表示，美联储不急于降息，需要更多证据确认通胀可持续回落至2%目标。他称劳动力市场仍然强劲，经济扩张稳健，过早降息可能导致通胀反弹。市场解读为偏鹰信号，6月降息概率进一步降至42%。鲍威尔未排除年内降息可能，但强调将依赖数据决策。美股尾盘跳水，标普500收跌0.6%。",
+      "source": "Bloomberg",
+      "sourceAgents": ["gemini", "doubao"],
+      "verified": true,
+      "importance": 0.97,
+      "tags": ["美联储", "鲍威尔", "货币政策"],
+      "image": "https://picsum.photos/seed/fin-0304-1/800/400",
+      "url": "https://example.com/article/powell-testimony",
+      "context": "鲍威尔证词为美联储政策定调，直接影响全球利率预期与风险资产估值"
+    },
+    {
+      "title": "中国两会政府工作报告：GDP目标5%左右，赤字率3%",
+      "summary": "十四届全国人大四次会议周三开幕，政府工作报告提出2026年GDP增长目标5%左右，与去年持平。财政赤字率拟安排3%，新增专项债规模4万亿元。报告强调发展新质生产力，推动大规模设备更新和消费品以旧换新。货币政策方面，保持流动性合理充裕，推动社会融资规模、货币供应量同经济增长和价格水平预期目标相匹配。分析师认为，目标符合预期，稳增长政策力度适中。",
+      "source": "财新",
+      "sourceAgents": ["gemini", "doubao", "perplexity"],
+      "verified": true,
+      "importance": 0.93,
+      "tags": ["两会", "政府工作报告", "中国经济"],
+      "image": "https://picsum.photos/seed/fin-0304-2/800/400",
+      "url": "https://example.com/article/npc-work-report",
+      "context": "两会政策定调全年经济与产业方向，对A股板块轮动与资金配置有重要指引"
+    },
+    {
+      "title": "欧央行维持三大利率不变，拉加德暗示6月或降息",
+      "summary": "欧洲央行周三公布利率决议，维持主要再融资利率4.50%、存款便利利率4.00%、边际借贷利率4.75%不变，符合市场预期。行长拉加德在新闻发布会上表示，若通胀路径符合预期，6月可能开始降息。欧元区2月CPI同比2.6%，核心CPI 2.9%。欧央行下调2026年通胀预测至2.1%。决议公布后，欧元兑美元短线下跌0.3%至1.0850。",
+      "source": "Reuters",
+      "sourceAgents": ["gemini"],
+      "verified": true,
+      "importance": 0.88,
+      "tags": ["欧洲央行", "利率决议", "欧元"],
+      "image": "https://picsum.photos/seed/fin-0304-3/800/400",
+      "url": "https://example.com/article/ecb-decision",
+      "context": "欧央行与美联储政策差影响欧元走势，6月降息预期支撑欧股估值"
+    },
+    {
+      "title": "日元跌破151关口，日本财务省官员暗示可能干预",
+      "summary": "周三亚洲交易时段，美元兑日元突破151关口，最高触及151.25，创2022年10月以来新高。日本财务省副大臣神田真人表示，日元近期走势偏快，不排除采取适当措施。市场解读为口头干预，日元短线反弹至150.80。分析师指出，美日利差扩大持续压制日元，若跌破152，日本央行或被迫入场干预。日本2月CPI同比2.8%，核心CPI 2.5%。",
+      "source": "金十数据",
+      "sourceAgents": ["doubao", "perplexity"],
+      "verified": true,
+      "importance": 0.85,
+      "tags": ["日元", "外汇", "日本央行"],
+      "image": "https://picsum.photos/seed/fin-0304-4/800/400",
+      "url": "https://example.com/article/yen-intervention",
+      "context": "日元贬值影响亚洲货币竞争性贬值预期，干预风险扰动套息交易"
+    },
+    {
+      "title": "特斯拉上海储能工厂开工，年产能40GWh",
+      "summary": "特斯拉周三宣布，其上海储能超级工厂正式开工建设，预计2027年投产，年产能40GWh。该工厂将生产Megapack大型储能系统，主要供应亚太市场。马斯克在开工仪式上表示，储能是能源转型关键，中国市场需求巨大。宁德时代、比亚迪等国内厂商加速储能布局，行业竞争加剧。分析师称，储能赛道高景气延续，但需关注价格战与毛利率压力。",
+      "source": "第一财经",
+      "sourceAgents": ["perplexity"],
+      "verified": true,
+      "importance": 0.72,
+      "tags": ["特斯拉", "储能", "新能源"],
+      "image": "https://picsum.photos/seed/fin-0304-5/800/400",
+      "url": "https://example.com/article/tesla-shanghai-storage",
+      "context": "特斯拉在华扩产反映新能源产业链全球化布局，储能为下一增长曲线"
+    }
+  ],
+  "meta": {
+    "agents_used": ["gemini", "doubao", "perplexity"],
+    "total_raw": 22,
+    "after_dedup": 13,
+    "final_selected": 5,
+    "generated_at": "2026-03-04T06:00:00Z",
+    "cost_usd": 0.05
+  }
+}

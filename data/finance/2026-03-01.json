@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-01",
+  "weekday": "周日",
+  "channel": "finance",
+  "topic": "周末全球市场休市，加密资产与宏观预期主导焦点",
+  "digest": "周六全球主要股市休市，比特币突破11.8万美元创历史新高，以太坊跟涨。市场普遍预期美联储3月或维持利率不变，美债收益率曲线趋平。下周关注非农就业与欧央行决议。",
+  "articles": [
+    {
+      "title": "比特币突破11.8万美元创历史新高，机构资金持续流入",
+      "summary": "周六比特币价格突破11.8万美元关口，创下历史新高。数据显示，过去一周现货ETF净流入超12亿美元，贝莱德旗下IBIT单周流入创纪录。分析师指出，减半效应叠加机构配置需求，推动本轮上涨。以太坊同步走强，突破4200美元。部分分析师警告短期波动风险，建议关注监管动态。",
+      "source": "Bloomberg",
+      "sourceAgents": ["gemini", "doubao"],
+      "verified": true,
+      "importance": 0.94,
+      "tags": ["加密货币", "比特币", "ETF"],
+      "image": "https://picsum.photos/seed/fin-0301-1/800/400",
+      "url": "https://example.com/article/btc-record",
+      "context": "比特币作为风险资产风向标，其创新高反映全球流动性充裕与风险偏好回升，对传统资产有传导效应"
+    },
+    {
+      "title": "美联储3月议息在即，市场押注维持利率不变",
+      "summary": "CME FedWatch显示，市场对美联储3月维持利率在4.75%-5.00%区间的概率升至92%。多位联储官员近期表态偏鹰，强调需更多通胀回落证据。2月PCE数据将于下周公布，若核心PCE维持2.5%以下，将为6月降息打开空间。美债10年期收益率周五收于4.18%。",
+      "source": "Reuters",
+      "sourceAgents": ["gemini"],
+      "verified": true,
+      "importance": 0.91,
+      "tags": ["美联储", "利率", "货币政策"],
+      "image": "https://picsum.photos/seed/fin-0301-2/800/400",
+      "url": "https://example.com/article/fed-march",
+      "context": "美联储政策路径直接影响全球资本流动与风险资产估值，3月决议为二季度定调"
+    },
+    {
+      "title": "下周非农就业数据前瞻：劳动力市场或延续降温",
+      "summary": "经济学家预计美国2月新增非农就业人数约18万，较1月的35万大幅回落。失业率料维持在3.7%，时薪同比增速或放缓至3.8%。若数据符合预期，将强化美联储软着陆叙事。金十数据统计显示，过去三个月非农数据公布后标普500平均波动约0.6%。",
+      "source": "金十数据",
+      "sourceAgents": ["doubao", "perplexity"],
+      "verified": true,
+      "importance": 0.85,
+      "tags": ["非农就业", "美国经济", "劳动力市场"],
+      "image": "https://picsum.photos/seed/fin-0301-3/800/400",
+      "url": "https://example.com/article/nfp-preview",
+      "context": "非农是美联储决策核心参考指标，数据超预期将扰动降息预期与市场定价"
+    },
+    {
+      "title": "欧央行3月决议前瞻：拉加德或释放6月降息信号",
+      "summary": "欧洲央行将于3月6日公布利率决议，市场普遍预期维持三大利率不变。行长拉加德在近期讲话中暗示，若通胀持续回落，6月可能开启降息周期。欧元区2月CPI初值同比2.6%，核心CPI 2.9%，均低于预期。欧债收益率本周下行，德债10年期跌至2.35%。",
+      "source": "财新",
+      "sourceAgents": ["gemini", "doubao", "perplexity"],
+      "verified": true,
+      "importance": 0.82,
+      "tags": ["欧洲央行", "欧元区", "货币政策"],
+      "image": "https://picsum.photos/seed/fin-0301-4/800/400",
+      "url": "https://example.com/article/ecb-march",
+      "context": "欧央行与美联储政策差影响欧元兑美元走势，进而传导至全球贸易与资本流动"
+    },
+    {
+      "title": "黄金站上2150美元，地缘与降息预期双重支撑",
+      "summary": "COMEX黄金期货周五收于2152美元/盎司，周涨幅1.8%。分析师指出，中东局势不确定性、美联储降息预期以及央行购金需求共同推高金价。世界黄金协会数据显示，1月全球央行净购金39吨。技术面看，金价突破2140阻力位后，下一目标或指向2200美元。",
+      "source": "第一财经",
+      "sourceAgents": ["perplexity"],
+      "verified": true,
+      "importance": 0.78,
+      "tags": ["黄金", "贵金属", "避险资产"],
+      "image": "https://picsum.photos/seed/fin-0301-5/800/400",
+      "url": "https://example.com/article/gold-rally",
+      "context": "黄金作为传统避险与抗通胀资产，其走势反映市场风险偏好与通胀预期变化"
+    }
+  ],
+  "meta": {
+    "agents_used": ["gemini", "doubao", "perplexity"],
+    "total_raw": 28,
+    "after_dedup": 16,
+    "final_selected": 5,
+    "generated_at": "2026-03-01T06:00:00Z",
+    "cost_usd": 0.05
+  }
+}

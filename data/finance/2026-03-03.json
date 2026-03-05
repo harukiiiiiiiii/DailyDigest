@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-03",
+  "weekday": "周二",
+  "channel": "finance",
+  "topic": "美国2月非农超预期，美联储降息预期延后拖累风险资产",
+  "digest": "美国2月非农新增22.3万人超预期，失业率降至3.6%。市场下调美联储6月降息概率，美债收益率跳升，美股三大指数收跌。A股沪指跌0.5%，港股恒生科技跌1.2%。并购方面，博通宣布以280亿美元收购VMware竞争对手。",
+  "articles": [
+    {
+      "title": "美国2月非农新增22.3万超预期，失业率降至3.6%",
+      "summary": "美国劳工部周二公布数据显示，2月非农就业人数增加22.3万，远超市场预期的18万，1月数据上修至28.5万。失业率从3.7%降至3.6%，时薪同比增速3.9%略高于预期。劳动力参与率维持在62.5%。数据公布后，CME FedWatch显示6月降息概率从72%骤降至48%。美债10年期收益率跳升12基点至4.30%，2年期收益率升至4.65%。",
+      "source": "Bloomberg",
+      "sourceAgents": ["gemini", "doubao", "perplexity"],
+      "verified": true,
+      "importance": 0.96,
+      "tags": ["非农就业", "美联储", "美国经济"],
+      "image": "https://picsum.photos/seed/fin-0303-1/800/400",
+      "url": "https://example.com/article/nfp-feb",
+      "context": "非农数据超预期意味着劳动力市场仍强劲，美联储降息时点可能延后，冲击风险资产"
+    },
+    {
+      "title": "美股三大指数收跌，科技股承压英伟达跌2.8%",
+      "summary": "周二美股三大指数集体收跌，标普500跌0.8%，纳斯达克跌1.1%，道指跌0.6%。非农数据超预期推高美债收益率，科技股估值承压。英伟达跌2.8%，微软、苹果跌超1%。银行股逆势上涨，摩根大通涨0.9%。中概股普跌，阿里巴巴跌2.2%，拼多多跌1.8%。分析师称，利率敏感型资产短期面临调整压力，但盈利支撑下回调空间有限。",
+      "source": "CNBC",
+      "sourceAgents": ["gemini"],
+      "verified": true,
+      "importance": 0.89,
+      "tags": ["美股", "科技股", "利率"],
+      "image": "https://picsum.photos/seed/fin-0303-2/800/400",
+      "url": "https://example.com/article/us-stocks-drop",
+      "context": "美债收益率上行压制成长股估值，美股调整或传导至全球风险偏好"
+    },
+    {
+      "title": "博通宣布280亿美元收购Tanzu，强化云基础设施布局",
+      "summary": "博通周二宣布以280亿美元全现金收购云原生软件公司Tanzu，预计交易将于2026年下半年完成。Tanzu为VMware竞争对手，专注于Kubernetes与容器编排。博通CEO陈福阳表示，收购将强化公司在多云与混合云市场的领导地位。此前博通于2023年完成对VMware的690亿美元收购。分析师认为，企业软件整合潮延续，博通正构建端到端云基础设施帝国。",
+      "source": "华尔街日报",
+      "sourceAgents": ["doubao"],
+      "verified": true,
+      "importance": 0.84,
+      "tags": ["并购", "博通", "云计算"],
+      "image": "https://picsum.photos/seed/fin-0303-3/800/400",
+      "url": "https://example.com/article/broadcom-tanzu",
+      "context": "科技巨头并购反映行业整合趋势，博通收购影响云计算与软件板块估值"
+    },
+    {
+      "title": "A股沪指跌0.5%失守3050，北向资金净流出38亿",
+      "summary": "周二A股三大指数集体收跌，沪指跌0.5%报3038点，失守3050关口。深成指跌0.7%，创业板指跌0.9%。北向资金净流出38亿元，终结连续五日净买入。板块方面，银行、地产相对抗跌，新能源、半导体跌幅居前。宁德时代跌2.1%，比亚迪跌1.5%。分析师指出，美国非农数据超预期推高美债收益率，压制全球风险偏好，A股短期或震荡整固。",
+      "source": "财新",
+      "sourceAgents": ["gemini", "doubao"],
+      "verified": true,
+      "importance": 0.81,
+      "tags": ["A股", "北向资金", "港股"],
+      "image": "https://picsum.photos/seed/fin-0303-4/800/400",
+      "url": "https://example.com/article/a-shares-tuesday",
+      "context": "A股受外围利率与资金流向影响，北向资金转向反映外资短期避险"
+    },
+    {
+      "title": "铜价突破9200美元，供应紧张与需求预期双重驱动",
+      "summary": "周二LME铜期货突破9200美元/吨，创2024年4月以来新高，周涨幅达3.2%。智利、秘鲁铜矿供应扰动持续，Codelco下调一季度产量指引。需求端，中国电网投资与新能源车用铜需求强劲。高盛将12个月铜价目标上调至10000美元。分析师称，铜作为经济晴雨表，其强势反映全球制造业复苏预期，但需警惕短期技术性回调。",
+      "source": "Reuters",
+      "sourceAgents": ["perplexity"],
+      "verified": true,
+      "importance": 0.76,
+      "tags": ["铜", "大宗商品", "有色金属"],
+      "image": "https://picsum.photos/seed/fin-0303-5/800/400",
+      "url": "https://example.com/article/copper-rally",
+      "context": "铜价走势反映全球工业需求与通胀预期，对有色金属板块有直接传导"
+    }
+  ],
+  "meta": {
+    "agents_used": ["gemini", "doubao", "perplexity"],
+    "total_raw": 26,
+    "after_dedup": 17,
+    "final_selected": 5,
+    "generated_at": "2026-03-03T06:00:00Z",
+    "cost_usd": 0.05
+  }
+}

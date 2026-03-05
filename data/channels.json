@@ -1,0 +1,125 @@
+[
+  {
+    "id": "ai",
+    "name": "AI 前沿",
+    "nameEn": "AI Frontier",
+    "description": "追踪人工智能领域最新突破、产品发布、行业动态与学术论文",
+    "icon": "brain",
+    "template": "magazine",
+    "colorScheme": "ocean",
+    "keywords": [
+      "LLM",
+      "GPT",
+      "机器人",
+      "自动驾驶",
+      "AI芯片",
+      "开源模型"
+    ],
+    "sources": [
+      "arXiv",
+      "TechCrunch",
+      "The Verge",
+      "Hacker News",
+      "Reddit r/MachineLearning"
+    ],
+    "searchPrompt": "搜索过去24小时内人工智能领域的重要新闻和突破，包括大语言模型进展、AI产品发布、重要论文、行业融资和监管动态。重点关注对行业有实质影响的事件，忽略教程和入门内容。中英文来源都要覆盖。",
+    "agentCombo": [
+      "gemini"
+    ],
+    "integrationModel": "gemini",
+    "createdAt": "2026-02-28T00:00:00Z"
+  },
+  {
+    "id": "finance",
+    "name": "全球财经",
+    "nameEn": "Global Finance",
+    "description": "全球股市、加密货币、宏观经济政策与投资趋势一网打尽",
+    "icon": "trending-up",
+    "template": "dashboard",
+    "colorScheme": "ember",
+    "keywords": [
+      "美股",
+      "A股",
+      "加密货币",
+      "美联储",
+      "GDP",
+      "财报"
+    ],
+    "sources": [
+      "Bloomberg",
+      "Reuters",
+      "华尔街日报",
+      "财新",
+      "金十数据"
+    ],
+    "searchPrompt": "搜索过去24小时内全球金融市场的重要事件，包括美股、A股、港股行情，加密货币动态，央行政策，重要经济数据发布，企业财报和重大并购。关注对市场有实际影响的新闻，数据要准确。",
+    "agentCombo": [
+      "gemini"
+    ],
+    "integrationModel": "gemini",
+    "createdAt": "2026-02-28T00:00:00Z"
+  },
+  {
+    "id": "sports",
+    "name": "体育热点",
+    "nameEn": "Sports Buzz",
+    "description": "NBA、欧洲足球、F1等全球热门赛事赛果与深度分析",
+    "icon": "trophy",
+    "template": "cards",
+    "colorScheme": "forest",
+    "keywords": [
+      "NBA",
+      "英超",
+      "F1",
+      "UFC",
+      "网球",
+      "奥运"
+    ],
+    "sources": [
+      "ESPN",
+      "BBC Sport",
+      "The Athletic",
+      "虎扑",
+      "懂球帝"
+    ],
+    "searchPrompt": "搜索过去24小时内全球体育赛事的重要结果和新闻，包括NBA比赛结果和球员表现、欧洲五大联赛、F1赛事、网球大满贯等。关注比赛结果、转会传闻、伤病更新和赛事分析。",
+    "agentCombo": [
+      "gemini"
+    ],
+    "integrationModel": "gemini",
+    "createdAt": "2026-02-28T00:00:00Z"
+  },
+  {
+    "id": "galgame",
+    "name": "日本galgame游戏动态",
+    "nameEn": "",
+    "description": "实时追踪日本美少女游戏（Galgame）行业动态，涵盖新作发布、厂商资讯及视觉小说市场深度观察。",
+    "icon": "gamepad-2",
+    "template": "feed",
+    "colorScheme": "ocean",
+    "keywords": [
+      "Galgame",
+      "视觉小说",
+      "美少女游戏",
+      "日本游戏资讯",
+      "VN新作",
+      "Eroge",
+      "游戏厂商动态",
+      "视觉小说评测"
+    ],
+    "sources": [
+      "ErogeGames (Eroge.db)",
+      "4Gamer.net",
+      "DenFamiNicoGamer",
+      "Visual Novel Database (VNDB)",
+      "Famitsu (Fami通)"
+    ],
+    "searchPrompt": "请深度搜集日本Galgame（美少女游戏）行业的最新动态。重点关注：1. 知名厂商（如Key, Type-Moon, Nitroplus, Frontwing等）的新作发布、预告片及发售日期；2. 行业重大新闻，包括重制版消息、平台移植、声优访谈或制作人访谈；3. 权威游戏媒体的评测与行业趋势分析；4. 排除无关的同人作品、低质量页游或纯粹的色情擦边球资讯，确保信息聚焦于商业化视觉小说（Visual Novel）领域。语言优先检索日语（原文）和英语（国际发行），并进行准确的中文翻译汇总。",
+    "agentCombo": [
+      "gemini",
+      "perplexity"
+    ],
+    "integrationModel": "gemini",
+    "createdAt": "2026-03-05T04:34:24.700Z"
+  }
+]

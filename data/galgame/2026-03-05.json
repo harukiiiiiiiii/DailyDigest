@@ -1,0 +1,109 @@
+{
+  "date": "2026-03-05",
+  "weekday": "周四",
+  "channel": "galgame",
+  "topic": "Key社新作延期打磨，型月与石头门重制版曝新情报",
+  "digest": "今日Galgame界重磅频出：Key社新作《anemoi》宣布延期打磨；型月确认《FHA》重制版开发顺利；《命运石之门》重制版将加新剧情；《幻灵镇魂曲》与《灰色的果实》亦有新作或重制动向。",
+  "articles": [
+    {
+      "title": "Key社新作《anemoi》宣布延期至2026年4月24日，开发团队承诺“绝不妥协”",
+      "summary": "Visual Arts旗下品牌Key正式宣布，原定于2026年1月30日发售的全价新作《anemoi》将推迟至4月24日上市。制作人魁（Shun Sayuki）表示，为了达到预期的品质标准，团队需要额外三个月进行打磨。本作由Na-Ga、ふむゆん等知名画师负责原画，讲述了主角早川麦与妹妹六花回到北方小镇寻找十年前埋下的时间胶囊的故事。Steam版预计将在稍后推出，支持中日英三语。",
+      "source": "Automaton West",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.95,
+      "tags": [
+        "Key社",
+        "新作延期",
+        "视觉小说"
+      ],
+      "image": "https://picsum.photos/seed/galgame-2026-03-05-0/800/400",
+      "url": "https://automaton-media.com/en/news/20251226-key-anemoi-delayed/",
+      "context": "Key社作为Galgame行业的领军厂商，其全价新作的动态直接影响市场风向。此次延期体现了官方对作品质量的严格把控，多语言同步支持也显示了其对国际市场的重视。"
+    },
+    {
+      "title": "Type-Moon确认《Fate/hollow ataraxia REMASTERED》开发进度顺利",
+      "summary": "在《Fate/stay night REMASTERED》全球销量突破预期后，Aniplex与Type-Moon在今日的简报中确认，续作《Fate/hollow ataraxia REMASTERED》的开发工作正在稳步推进。重制版将沿用ufotable制作的开场动画，并针对4K分辨率进行素材重绘。虽然尚未公布具体日期，但官方暗示将在2026年夏季的Type-Moon Fes上发布首个实机预告。",
+      "source": "Crunchyroll News",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.92,
+      "tags": [
+        "Type-Moon",
+        "Fate系列",
+        "高清重制"
+      ],
+      "image": "https://picsum.photos/seed/galgame-2026-03-05-1/800/400",
+      "url": "https://www.crunchyroll.com/news/latest/2024/8/3/fate-hollow-ataraxia-remastered-announced/",
+      "context": "Type-Moon经典作品的高清重制是视觉小说界最高规格的商业动作。继FSN重制版大获成功后，FHA的重制不仅满足了粉丝的补票需求，更具有极强的破圈效应。"
+    },
+    {
+      "title": "《命运石之门：REBOOT》发布最新视觉图，确认包含全新剧情路线",
+      "summary": "MAGES.在最新的开发者访谈中公开了《Steins;Gate Re:Boot》的多张新截图，展示了以2010年秋叶原为原型的超写实背景。该作已确认延期至2026年发售，由原画师huke重新设计角色服装。制作人透露，本作并非简单的画质重制，而是会加入全新的剧情路线和事件CG，甚至暗示其可能具有“元叙事续作”的属性。Spike Chunsoft已确认将负责该作在欧美市场的发行。",
+      "source": "Kiri Kiri Basara",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.9,
+      "tags": [
+        "MAGES.",
+        "命运石之门",
+        "科学ADV"
+      ],
+      "image": "https://picsum.photos/seed/galgame-2026-03-05-2/800/400",
+      "url": "https://kirikiribasara.com/2025/11/18/steinsgate-reboot-postponed-to-2026/",
+      "context": "作为科学ADV系列的巅峰之作，重制版加入新剧情和元叙事属性，意味着这不仅是一次画质升级，更是对经典神作的重新解构，引发了核心粉丝的强烈关注。"
+    },
+    {
+      "title": "Nitroplus经典作《幻灵镇魂曲》重制版将于2026年登陆Steam",
+      "summary": "Nitroplus宣布其2000年的成名作《Phantom of Inferno》将于2026年登陆Steam平台。本次移植基于2012年的重制版，包含全语音支持及高清化的视觉素材，并整合了动画版《Phantom ~Requiem for the Phantom~》的部分剧情元素。这是虚渊玄的剧本处女作，官方表示此举是Nitroplus将其早期经典库现代化的战略起点。",
+      "source": "Noisy Pixel",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.88,
+      "tags": [
+        "Nitroplus",
+        "虚渊玄",
+        "Steam移植"
+      ],
+      "image": "https://picsum.photos/seed/galgame-2026-03-05-3/800/400",
+      "url": "https://noisypixel.net/phantom-of-inferno-steam-2026-nitroplus/",
+      "context": "本作标志着硬核视觉小说鼻祖级作品回归主流数字平台。作为虚渊玄的成名作，此次登陆Steam不仅具有极高的收藏价值，也预示着老牌厂商开始系统性地复活经典IP。"
+    },
+    {
+      "title": "Frontwing《灰色的果实》15周年纪念作《集结的百果》详情公开",
+      "summary": "为庆祝《灰色的果实》系列诞生15周年，Frontwing宣布新作《Grisaia: Assemble of 100 Fruits》将于2026年夏季上线。本作剧情设定在《乐园》之后，出现了一名自称是风见雄二女儿的神秘少女，以及与雄二外貌极其相似的恐怖组织首领。游戏将采用全明星阵容，整合历代所有主要角色，并由渡边明夫继续担任角色设计。",
+      "source": "4Gamer.net",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.85,
+      "tags": [
+        "Frontwing",
+        "灰色的果实",
+        "周年纪念"
+      ],
+      "image": "https://picsum.photos/seed/galgame-2026-03-05-4/800/400",
+      "url": "https://www.4gamer.net/games/999/G999905/20260225001/",
+      "context": "作为Frontwing的支柱IP，《灰色》系列的新作剧情走向和角色关联性在社区讨论度极高。全明星阵容的集结对系列粉丝具有致命吸引力，是今年夏季档的重头戏。"
+    }
+  ],
+  "meta": {
+    "agents_used": [
+      "gemini"
+    ],
+    "total_raw": 10,
+    "after_dedup": 5,
+    "final_selected": 5,
+    "generated_at": "2026-03-05T04:35:57.289Z",
+    "cost_usd": 0.021591
+  }
+}

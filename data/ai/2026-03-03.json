@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-03",
+  "weekday": "周二",
+  "channel": "ai",
+  "topic": "AI安全与对齐研究进展，多国联合发布AI治理框架",
+  "digest": "周二聚焦AI安全：OpenAI、Anthropic等七家机构联合发布前沿模型安全评估标准。中国、美国、欧盟代表在日内瓦AI治理峰会上就跨境数据与模型出口达成初步共识。同时，新型越狱攻击手法引发学界关注。",
+  "articles": [
+    {
+      "title": "七家AI巨头联合发布前沿模型安全评估框架，覆盖能力边界与恶意使用",
+      "summary": "OpenAI、Anthropic、Google、Meta、Microsoft、Amazon和xAI联合发布《前沿AI模型安全评估框架》，首次就高风险能力测试达成行业共识。框架涵盖四个维度：能力边界评估（包括自主性、说服力、网络能力）、恶意使用风险评估、系统安全（越狱抵抗、数据泄露）以及社会影响。各公司承诺在发布新前沿模型前完成自评并公布摘要。框架参考了英国AI安全研究所的评估方法，预计将影响各国监管政策制定。",
+      "source": "TechCrunch",
+      "sourceAgents": ["grok", "gemini"],
+      "verified": true,
+      "importance": 0.92,
+      "tags": ["AI安全", "行业标准", "治理"],
+      "image": "https://picsum.photos/seed/ai-0303-1/800/400",
+      "url": "https://example.com/article1",
+      "context": "行业自发制定安全标准可避免碎片化监管，但执行力度与第三方监督仍是关键"
+    },
+    {
+      "title": "日内瓦AI治理峰会：中美欧就模型出口管制达成技术层面共识",
+      "summary": "为期三天的日内瓦AI治理峰会于3月3日闭幕，中国、美国、欧盟及主要AI研发国代表就前沿模型出口管制达成技术层面共识。各方同意建立「能力阈值」机制，当模型在特定基准上超过阈值时需申报出口。具体阈值和基准仍在讨论中，预计年内出台初版。会议还讨论了AI系统跨境部署的数据本地化要求，欧盟坚持高风险AI需在境内完成评估。分析认为此举为全球AI治理提供了难得的合作框架。",
+      "source": "机器之心",
+      "sourceAgents": ["gemini", "perplexity"],
+      "verified": true,
+      "importance": 0.90,
+      "tags": ["AI治理", "国际合作", "出口管制"],
+      "image": "https://picsum.photos/seed/ai-0303-2/800/400",
+      "url": "https://example.com/article2",
+      "context": "大国在AI治理上的协调对避免技术民族主义、保障全球研发合作至关重要"
+    },
+    {
+      "title": "新型「语义越狱」攻击可绕过GPT-4级模型安全机制，OpenAI已发布补丁",
+      "summary": "苏黎世联邦理工与斯坦福联合团队发现新型越狱攻击「Semantic Jailbreak」，通过构造特定语义结构的提示词，可诱导GPT-4、Claude等模型输出违禁内容。攻击利用模型对「学术讨论」「假设场景」等框架的宽松处理，无需显式恶意词汇即可绕过安全过滤。论文已在USENIX Security 2026录用。OpenAI表示已针对该攻击模式更新模型，建议用户及时升级。研究者呼吁建立越狱攻击的标准化测试集。",
+      "source": "arXiv",
+      "sourceAgents": ["grok"],
+      "verified": true,
+      "importance": 0.86,
+      "tags": ["AI安全", "越狱攻击", "研究"],
+      "image": "https://picsum.photos/seed/ai-0303-3/800/400",
+      "url": "https://example.com/article3",
+      "context": "安全与攻击是持续博弈，新型越狱手法的发现推动防御机制迭代"
+    },
+    {
+      "title": "Anthropic发布Constitutional AI 3.0论文，详解价值观对齐的可扩展方法",
+      "summary": "Anthropic在arXiv发布Constitutional AI 3.0技术报告，阐述其价值观对齐的最新方法论。核心改进包括：多轮自我批评机制，模型在生成后需通过多轮「宪法」条款自检；群体偏好建模，从多样化人类反馈中学习价值谱系而非单一标准；可解释的对齐信号，使模型能说明其拒绝某些请求的理由。在有害性评估中，CAI 3.0相比基线模型将不当输出率降低至0.3%以下。报告未开源完整实现，但提供了方法论细节供学界参考。",
+      "source": "Hacker News",
+      "sourceAgents": ["grok", "gemini", "perplexity"],
+      "verified": false,
+      "importance": 0.84,
+      "tags": ["AI对齐", "Anthropic", "研究"],
+      "image": "https://picsum.photos/seed/ai-0303-4/800/400",
+      "url": "https://example.com/article4",
+      "context": "价值观对齐是AI安全的核心挑战，可扩展方法对行业具有重要参考价值"
+    },
+    {
+      "title": "苹果Apple Intelligence 2.0内测开启，支持设备端多模态与隐私计算",
+      "summary": "苹果向开发者推送Apple Intelligence 2.0测试版，新版本支持设备端多模态理解，可同时处理图片、语音和文本输入。核心升级包括：本地运行的视觉模型，支持相册智能整理、文档OCR和实时翻译；隐私保护的计算框架，敏感任务全程在设备完成；与Siri深度整合，支持多轮复杂对话和跨应用任务编排。仅支持M4芯片及以上的Mac和iPhone 16 Pro系列。正式版预计随iOS 20和macOS 16在WWDC 2026发布。",
+      "source": "The Verge",
+      "sourceAgents": ["perplexity"],
+      "verified": true,
+      "importance": 0.82,
+      "tags": ["苹果", "Apple Intelligence", "隐私计算"],
+      "image": "https://picsum.photos/seed/ai-0303-5/800/400",
+      "url": "https://example.com/article5",
+      "context": "苹果的隐私优先策略在AI时代面临算力与体验的平衡挑战，设备端能力是关键"
+    }
+  ],
+  "meta": {
+    "agents_used": ["grok", "gemini", "perplexity"],
+    "total_raw": 25,
+    "after_dedup": 15,
+    "final_selected": 5,
+    "generated_at": "2026-03-03T06:00:00Z",
+    "cost_usd": 0.04
+  }
+}

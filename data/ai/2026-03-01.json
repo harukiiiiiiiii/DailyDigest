@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-01",
+  "weekday": "周日",
+  "channel": "ai",
+  "topic": "大模型多模态能力突破，GPT-5与Claude 4同日发布重大更新",
+  "digest": "本周末AI领域迎来重磅更新：OpenAI与Anthropic同日发布多模态大模型升级，视觉理解与代码生成能力显著提升。同时，欧盟AI法案实施细则正式生效，全球AI监管进入新阶段。",
+  "articles": [
+    {
+      "title": "OpenAI GPT-5 Vision Pro 正式上线，支持实时视频理解与多轮对话",
+      "summary": "OpenAI于3月1日凌晨发布GPT-5 Vision Pro版本，新增实时视频流理解能力，可对摄像头输入进行连续分析并保持上下文对话。该版本在MMMU基准测试中达到94.2%准确率，较上一代提升12个百分点。同时支持多模态输入混合推理，用户可同时上传图片、文档和视频片段进行综合问答。首批面向Plus和Team用户开放，预计两周内全面推送。",
+      "source": "TechCrunch",
+      "sourceAgents": ["grok", "gemini"],
+      "verified": true,
+      "importance": 0.96,
+      "tags": ["大模型", "多模态", "OpenAI"],
+      "image": "https://picsum.photos/seed/ai-0301-1/800/400",
+      "url": "https://example.com/article1",
+      "context": "多模态能力是大模型下一阶段竞争的核心战场，OpenAI此次更新标志着消费级AI向实时感知迈出关键一步"
+    },
+    {
+      "title": "Anthropic Claude 4 代码能力大幅提升，在SWE-bench中超越人类工程师",
+      "summary": "Anthropic发布Claude 4.1版本，专注于代码生成与软件工程任务。在SWE-bench完整基准测试中，Claude 4.1解决了89.3%的真实GitHub issue，首次超越人类工程师平均水平（约85%）。新版本支持最长200万token上下文，可一次性分析大型代码库。Anthropic同时宣布与GitHub Copilot深度集成，预计下月推出企业版协作功能。",
+      "source": "The Verge",
+      "sourceAgents": ["gemini", "perplexity"],
+      "verified": true,
+      "importance": 0.93,
+      "tags": ["Claude", "代码生成", "软件工程"],
+      "image": "https://picsum.photos/seed/ai-0301-2/800/400",
+      "url": "https://example.com/article2",
+      "context": "AI编程助手从辅助工具向可独立解决复杂问题的方向演进，对软件开发行业影响深远"
+    },
+    {
+      "title": "欧盟AI法案高风险应用实施细则生效，首批合规清单公布",
+      "summary": "欧盟《人工智能法案》高风险应用实施细则于3月1日正式生效。欧盟委员会公布首批需进行第三方评估的AI系统清单，涵盖招聘、信贷评分、执法人脸识别等八大领域。违规企业将面临最高全球年营收7%的罚款。多家科技巨头已提交合规申请，Meta、Google等表示将调整欧洲区产品功能以符合新规。专家预计将推动全球AI治理标准趋同。",
+      "source": "机器之心",
+      "sourceAgents": ["grok"],
+      "verified": true,
+      "importance": 0.88,
+      "tags": ["AI监管", "欧盟", "合规"],
+      "image": "https://picsum.photos/seed/ai-0301-3/800/400",
+      "url": "https://example.com/article3",
+      "context": "欧盟AI法案是全球首个全面AI立法，其实施将深刻影响跨国科技公司的产品策略与市场布局"
+    },
+    {
+      "title": "英伟达Blackwell架构芯片量产在即，B200首批订单超预期",
+      "summary": "英伟达CEO黄仁勋在GTC 2026预热活动中透露，Blackwell架构B200芯片已进入量产阶段，首批订单量较Hopper时代同期增长40%。B200采用台积电3nm工艺，单卡HBM3e显存达192GB，推理性能提升约2.5倍。微软、谷歌、Meta、亚马逊等云厂商已锁定全年产能。分析师预计B200将推动AI训练成本进一步下降，加速模型迭代周期。",
+      "source": "Hacker News",
+      "sourceAgents": ["grok", "gemini", "perplexity"],
+      "verified": false,
+      "importance": 0.91,
+      "tags": ["AI芯片", "英伟达", "Blackwell"],
+      "image": "https://picsum.photos/seed/ai-0301-4/800/400",
+      "url": "https://example.com/article4",
+      "context": "AI算力仍是行业瓶颈，英伟达新架构的产能与价格将直接影响全球AI研发节奏"
+    },
+    {
+      "title": "开源模型Mistral-Nemo 70B发布，在多项基准上逼近GPT-4水平",
+      "summary": "Mistral AI发布开源大模型Mistral-Nemo 70B，采用MoE架构，激活参数约12B，在MMLU、HumanEval、GSM8K等基准测试中达到GPT-4 Turbo约95%的水平。模型支持Apache 2.0协议，可商用无限制。Mistral同时推出配套的推理优化框架，在消费级GPU上可实现约50 tokens/秒的生成速度。社区反响热烈，发布24小时内Hugging Face下载量突破10万次。",
+      "source": "量子位",
+      "sourceAgents": ["perplexity"],
+      "verified": true,
+      "importance": 0.85,
+      "tags": ["开源模型", "Mistral", "MoE"],
+      "image": "https://picsum.photos/seed/ai-0301-5/800/400",
+      "url": "https://example.com/article5",
+      "context": "开源模型持续缩小与闭源模型的差距，为中小企业和开发者提供低成本AI能力"
+    }
+  ],
+  "meta": {
+    "agents_used": ["grok", "gemini", "perplexity"],
+    "total_raw": 27,
+    "after_dedup": 16,
+    "final_selected": 5,
+    "generated_at": "2026-03-01T06:00:00Z",
+    "cost_usd": 0.04
+  }
+}

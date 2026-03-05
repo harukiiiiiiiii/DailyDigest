@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-02",
+  "weekday": "周一",
+  "channel": "ai",
+  "topic": "具身智能与机器人突破，人形机器人量产元年开启",
+  "digest": "周一AI焦点集中在具身智能：Figure与特斯拉Optimus同日宣布量产计划，人形机器人从实验室走向工厂。斯坦福发布具身大模型新架构，多模态感知与动作规划统一建模取得突破。",
+  "articles": [
+    {
+      "title": "Figure 02人形机器人获宝马工厂订单，首批1000台将于Q2交付",
+      "summary": "人形机器人公司Figure宣布与宝马达成合作协议，Figure 02将进驻宝马斯帕坦堡工厂执行车身焊接质检与零部件搬运任务。首批订单1000台，预计2026年第二季度开始交付。Figure 02采用端到端神经网络控制，无需预编程即可适应产线变化。单台售价约15万美元，宝马表示投资回报期预计18个月。此举标志着人形机器人正式进入汽车制造主流供应链。",
+      "source": "TechCrunch",
+      "sourceAgents": ["grok", "gemini"],
+      "verified": true,
+      "importance": 0.94,
+      "tags": ["人形机器人", "Figure", "制造业"],
+      "image": "https://picsum.photos/seed/ai-0302-1/800/400",
+      "url": "https://example.com/article1",
+      "context": "汽车制造是人形机器人最具商业潜力的落地场景，宝马订单具有行业示范效应"
+    },
+    {
+      "title": "特斯拉Optimus Gen 2量产版发布，马斯克称年底前达到1万台产能",
+      "summary": "特斯拉在投资者日活动中展示Optimus Gen 2量产版本，相比原型机在手指灵巧度、行走稳定性和任务切换速度上均有显著提升。马斯克宣布弗里蒙特工厂已启动Optimus生产线，目标年底前达到月产1000台、年产能1万台的规模。量产版Optimus将优先部署于特斯拉自家工厂，执行电池组装、线束安装等重复性工作。定价策略尚未公布，业内预计面向B端售价在2-3万美元区间。",
+      "source": "The Verge",
+      "sourceAgents": ["gemini"],
+      "verified": true,
+      "importance": 0.95,
+      "tags": ["Optimus", "特斯拉", "人形机器人"],
+      "image": "https://picsum.photos/seed/ai-0302-2/800/400",
+      "url": "https://example.com/article2",
+      "context": "特斯拉的制造能力与规模效应可能推动人形机器人成本快速下降，加速行业普及"
+    },
+    {
+      "title": "斯坦福发布具身大模型EMMA，统一视觉-语言-动作的端到端架构",
+      "summary": "斯坦福HAI实验室发布具身智能大模型EMMA（Embodied Multimodal Model for Action），首次将视觉理解、语言推理与动作规划统一在单一Transformer架构中。EMMA在模拟器基准BEHAVIOR-1K上达到78.3%任务成功率，较此前SOTA提升15个百分点。关键创新在于将机器人动作离散化为「动作token」，与视觉和语言token共同参与自回归预测。论文已上传arXiv，代码与模型权重将开源。",
+      "source": "arXiv",
+      "sourceAgents": ["grok", "perplexity"],
+      "verified": true,
+      "importance": 0.89,
+      "tags": ["具身智能", "斯坦福", "研究"],
+      "image": "https://picsum.photos/seed/ai-0302-3/800/400",
+      "url": "https://example.com/article3",
+      "context": "具身智能是AI从虚拟走向物理世界的关键，统一架构有望降低机器人学习门槛"
+    },
+    {
+      "title": "谷歌DeepMind发布Robotics Transformer 3，支持从视频模仿学习",
+      "summary": "谷歌DeepMind推出Robotics Transformer 3（RT-3），新版本支持从人类操作视频中直接学习动作策略，无需机器人演示数据。在「看一次做一次」的少样本泛化任务中，RT-3在未见过的物体和场景上达到67%成功率。模型基于Gemini 2的多模态能力，可将YouTube等来源的日常操作视频转化为可执行的动作序列。DeepMind表示将开放RT-3的API供研究社区使用。",
+      "source": "机器之心",
+      "sourceAgents": ["grok", "gemini", "perplexity"],
+      "verified": false,
+      "importance": 0.87,
+      "tags": ["机器人学习", "DeepMind", "模仿学习"],
+      "image": "https://picsum.photos/seed/ai-0302-4/800/400",
+      "url": "https://example.com/article4",
+      "context": "从视频学习可大幅降低机器人数据收集成本，是解决「数据荒」的重要方向"
+    },
+    {
+      "title": "波士顿动力Atlas退役，新一代电动Atlas将于下半年亮相",
+      "summary": "波士顿动力宣布液压驱动的Atlas人形机器人正式退役，结束其12年的研发与演示生涯。公司表示新一代全电动Atlas已完成内部测试，将于2026年下半年正式发布。电动版Atlas在能效、噪音控制和维护成本上均有显著改进，同时保留了标志性的动态平衡与跑酷能力。波士顿动力强调新Atlas将面向工业与物流场景商业化，而非仅作技术展示。",
+      "source": "量子位",
+      "sourceAgents": ["perplexity"],
+      "verified": true,
+      "importance": 0.78,
+      "tags": ["波士顿动力", "Atlas", "人形机器人"],
+      "image": "https://picsum.photos/seed/ai-0302-5/800/400",
+      "url": "https://example.com/article5",
+      "context": "Atlas是机器人领域的标志性产品，其迭代反映行业从液压向电动、从演示向商用的转型"
+    }
+  ],
+  "meta": {
+    "agents_used": ["grok", "gemini", "perplexity"],
+    "total_raw": 22,
+    "after_dedup": 13,
+    "final_selected": 5,
+    "generated_at": "2026-03-02T06:00:00Z",
+    "cost_usd": 0.04
+  }
+}

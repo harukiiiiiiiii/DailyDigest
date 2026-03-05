@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-02",
+  "weekday": "周一",
+  "channel": "finance",
+  "topic": "美股科技股领涨，英伟达财报后市值突破4万亿美元",
+  "digest": "周一美股三大指数集体收涨，纳斯达克涨1.2%。英伟达盘后公布超预期财报，市值突破4万亿美元。A股沪指震荡收涨0.3%，新能源板块走强。原油价格因地缘紧张小幅上扬。",
+  "articles": [
+    {
+      "title": "英伟达Q4营收同比增265%超预期，市值盘后突破4万亿美元",
+      "summary": "英伟达周一盘后公布2026财年第四季度业绩，营收达221亿美元，同比大增265%，远超华尔街预期的206亿美元。数据中心业务营收196亿美元，AI芯片需求持续旺盛。公司指引下一季度营收约240亿美元。盘后股价涨超8%，市值突破4万亿美元，超越苹果成为全球第二大市值公司。黄仁勋表示，AI推理需求正在爆发， Blackwell架构芯片将于二季度放量。",
+      "source": "CNBC",
+      "sourceAgents": ["gemini", "doubao"],
+      "verified": true,
+      "importance": 0.98,
+      "tags": ["英伟达", "AI芯片", "美股财报"],
+      "image": "https://picsum.photos/seed/fin-0302-1/800/400",
+      "url": "https://example.com/article/nvidia-earnings",
+      "context": "英伟达为AI产业链核心标的，其业绩指引直接影响全球科技股估值与AI投资情绪"
+    },
+    {
+      "title": "标普500与纳斯达克齐创新高，科技七巨头领涨",
+      "summary": "周一美股三大指数集体收涨，标普500涨0.9%报5280点，纳斯达克涨1.2%报16850点，双双创收盘新高。科技七巨头中，英伟达、微软、Meta涨幅居前。特斯拉涨2.1%，马斯克称FSD v13将于本月推送。市场情绪乐观，VIX恐慌指数降至12.5。分析师指出，企业盈利超预期与降息预期支撑估值扩张。",
+      "source": "华尔街日报",
+      "sourceAgents": ["gemini"],
+      "verified": true,
+      "importance": 0.92,
+      "tags": ["美股", "标普500", "科技股"],
+      "image": "https://picsum.photos/seed/fin-0302-2/800/400",
+      "url": "https://example.com/article/sp500-record",
+      "context": "美股作为全球风险资产锚点，其走势对A股、港股及全球资金配置有显著传导"
+    },
+    {
+      "title": "A股沪指震荡收涨0.3%，新能源与低空经济板块领涨",
+      "summary": "周一A股三大指数窄幅震荡，沪指收涨0.3%报3052点，深成指涨0.5%，创业板指涨0.8%。新能源板块全线走强，宁德时代涨3.2%，隆基绿能涨2.8%。低空经济概念延续活跃，万丰奥威涨停。北向资金净流入42亿元，连续五日净买入。两市成交额约9800亿元，较前一交易日略有放量。分析师认为，两会政策预期支撑市场情绪。",
+      "source": "第一财经",
+      "sourceAgents": ["doubao"],
+      "verified": true,
+      "importance": 0.86,
+      "tags": ["A股", "新能源", "北向资金"],
+      "image": "https://picsum.photos/seed/fin-0302-3/800/400",
+      "url": "https://example.com/article/a-shares-monday",
+      "context": "A股走势反映国内政策预期与资金面，新能源板块与两会主题为近期主线"
+    },
+    {
+      "title": "布伦特原油涨至82美元，红海局势升级推高油价",
+      "summary": "周一国际油价小幅上扬，布伦特原油期货收涨1.2%报82.15美元/桶，WTI原油涨1.0%报78.30美元。胡塞武装周末袭击红海商船，地缘风险溢价回升。OPEC+将于3月3日召开会议，市场预期维持减产政策。美国能源信息署数据显示，上周原油库存意外增加120万桶。分析师称，需求端中国炼厂开工率回升提供支撑。",
+      "source": "Reuters",
+      "sourceAgents": ["gemini", "perplexity"],
+      "verified": true,
+      "importance": 0.79,
+      "tags": ["原油", "OPEC", "地缘政治"],
+      "image": "https://picsum.photos/seed/fin-0302-4/800/400",
+      "url": "https://example.com/article/oil-price",
+      "context": "原油价格影响全球通胀预期与能源成本，地缘因素短期扰动供需平衡"
+    },
+    {
+      "title": "美元指数回落至103.5，非美货币普遍走强",
+      "summary": "周一美元指数下跌0.3%至103.52，延续上周五跌势。欧元兑美元涨至1.0885，英镑兑美元涨至1.2720。日元在150关口附近震荡，市场关注日本央行是否干预。人民币中间价调升85基点，在岸人民币收于7.1980。分析师指出，美联储降息预期升温削弱美元吸引力，非农数据公布前市场观望情绪浓厚。",
+      "source": "金十数据",
+      "sourceAgents": ["doubao", "perplexity"],
+      "verified": true,
+      "importance": 0.74,
+      "tags": ["美元", "外汇", "人民币"],
+      "image": "https://picsum.photos/seed/fin-0302-5/800/400",
+      "url": "https://example.com/article/dxy-weakness",
+      "context": "美元走势影响全球资本流动与新兴市场资产，人民币汇率与A股北向资金相关"
+    }
+  ],
+  "meta": {
+    "agents_used": ["gemini", "doubao", "perplexity"],
+    "total_raw": 24,
+    "after_dedup": 14,
+    "final_selected": 5,
+    "generated_at": "2026-03-02T06:00:00Z",
+    "cost_usd": 0.05
+  }
+}

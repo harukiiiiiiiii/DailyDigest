@@ -1,0 +1,23 @@
+node_modules/
+.next/
+.env
+.env.local
+out/
+
+# Database
+data/digest.db
+data/digest.db-wal
+data/digest.db-shm
+
+# Sensitive runtime config
+data/settings.json
+
+# Build artifacts
+drizzle/
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Screenshots & test files
+*.png
+screenshots/
+test-*.js

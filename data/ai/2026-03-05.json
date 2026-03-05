@@ -1,0 +1,109 @@
+{
+  "date": "2026-03-05",
+  "weekday": "周四",
+  "channel": "ai",
+  "topic": "OpenAI 筹备万亿估值 IPO，字节跳动入局 AI 视频战局",
+  "digest": "今日 AI 领域聚焦商业化与安全监管。OpenAI 营收破 250 亿美元并筹备万亿估值 IPO；字节跳动发布 Seedance 2.0 挑战 Sora；同时，AI 安全监管与国际合作持续深化。",
+  "articles": [
+    {
+      "title": "OpenAI 年化营收突破 250 亿美元，正筹备万亿美元估值 IPO",
+      "summary": "截至 2026 年 2 月底，OpenAI 的年化营收已突破 250 亿美元，较 2025 年底增长 17%。公司正积极拓展企业级市场，与全球四大咨询公司合作，推动 AI 从试点转向全面部署。此外，OpenAI 正在为 IPO 铺路，其估值可能高达 1 万亿美元。",
+      "source": "The Business Times",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.95,
+      "tags": [
+        "OpenAI",
+        "IPO",
+        "商业化"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-05-0/800/400",
+      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/openai-tops-us25-billion-annualised-revenue-information-reports",
+      "context": "OpenAI 的财务状况和 IPO 计划是 AI 行业的风向标，反映了生成式 AI 商业化的巨大成功及资本市场的极高期待。"
+    },
+    {
+      "title": "字节跳动发布 Seedance 2.0 AI 视频平台，对标 OpenAI Sora",
+      "summary": "字节跳动正式发布 Seedance 2.0 AI 视频生成平台，引入电影级视频生成技术，支持同步音频、多镜头叙事和真实口型同步。用户可通过文本、图像或音频生成完整视频。该平台开放免费层，大幅降低高质量 AI 视频创作门槛，被视为 OpenAI Sora 的强力竞争对手。",
+      "source": "Paves News",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.9,
+      "tags": [
+        "字节跳动",
+        "AI视频",
+        "Sora"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-05-1/800/400",
+      "url": "https://paves.com.pk/seedance-2-0-ai-video-platform-goes-live-free-access-for-creator/",
+      "context": "视频生成是当前 AI 前沿最激烈的战场，字节跳动的新产品通过免费策略和多模态能力，直接挑战 OpenAI 的领先地位。"
+    },
+    {
+      "title": "OpenAI 与加拿大政府达成协议，加强 AI 安全审查机制",
+      "summary": "在加拿大发生特定安全事件后，OpenAI 同意追溯性地应用新的安全标准，并接受加拿大 AI 安全机构的审查。协议将加拿大隐私、心理健康和执法专家纳入高风险案例的识别和审查流程。CEO 奥特曼表示，公司致力于在保障创新的同时建立更严格的合规体系。",
+      "source": "Global News",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.88,
+      "tags": [
+        "AI安全",
+        "监管合规",
+        "OpenAI"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-05-2/800/400",
+      "url": "https://globalnews.ca/news/11717336/openai-mass-shooting/",
+      "context": "体现了 AI 巨头在面临突发社会安全事件和监管压力时对安全承诺的实质性调整，是全球 AI 治理领域的重要动态。"
+    },
+    {
+      "title": "76% 的新 SaaS 买家首选 AI 原生方案，传统软件模式面临挑战",
+      "summary": "SleekFlow 最新数据显示，2025 年第四季度，76% 的新企业客户直接选择 AI 原生计划，而非传统的软件分层模式。这一被称为“SaaSpocalypse”的趋势表明，企业不再局限于谨慎实验，而是在购买点直接拥抱自主 AI 代理（Agentic AI）技术，重新评估传统的按席位付费模式。",
+      "source": "Asia News Network",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.85,
+      "tags": [
+        "SaaS",
+        "AI原生",
+        "Agentic AI"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-05-3/800/400",
+      "url": "https://asianews.network/76-of-new-saas-buyers-now-choosing-ai-native-plans-over-traditional-software-sleekflow-platform-data-shows/",
+      "context": "揭示了 AI 对传统企业软件行业的颠覆性影响，标志着 AI 原生应用和自主智能体在企业端的普及速度正在加快。"
+    },
+    {
+      "title": "加拿大与澳大利亚升级 AI 战略伙伴关系，重点关注安全与国防",
+      "summary": "加拿大总理马克·卡尼与澳大利亚总理阿尔巴尼斯达成协议，提升两国在人工智能、关键矿产和国防领域的合作。双方将加强 AI 安全机构间的协作，分享专业知识，并推动与印度的三方合作，旨在通过技术共享确保 AI 的安全开发与部署，应对快速变化的全球局势。",
+      "source": "Prime Minister of Canada",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.82,
+      "tags": [
+        "国际合作",
+        "AI战略",
+        "国家安全"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-05-4/800/400",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/03/05/prime-minister-carney-elevates-partnership-australia-critical",
+      "context": "反映了 AI 技术已深度融入国际政治和国家安全战略，全球范围内的 AI 监管与技术联盟正在加速形成。"
+    }
+  ],
+  "meta": {
+    "agents_used": [
+      "gemini"
+    ],
+    "total_raw": 8,
+    "after_dedup": 5,
+    "final_selected": 5,
+    "generated_at": "2026-03-05T07:55:22.198Z",
+    "cost_usd": 0.01825
+  }
+}

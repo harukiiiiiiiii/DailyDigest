@@ -1,0 +1,109 @@
+{
+  "date": "2026-03-04",
+  "weekday": "周三",
+  "channel": "ai",
+  "topic": "Claude 3.7 Opus发布，英伟达B300量产，欧盟出台AI能耗新规",
+  "digest": "今日AI领域迎来多项突破：Anthropic发布深度推理模型Claude 3.7 Opus，英伟达B300芯片量产。欧盟出台大模型能耗监管新规，Figure AI获8亿美元融资，OpenAI大幅提升o3-mini推理速度。",
+  "articles": [
+    {
+      "title": "Anthropic 发布 Claude 3.7 Opus 深度推理模型",
+      "summary": "Anthropic 正式推出其首个具备原生深度推理能力的模型 Claude 3.7 Opus。该模型在代码生成、复杂数学证明及法律文档分析等任务中表现优异，HumanEval 测试通过率高达 92.5%。其最大亮点是引入了“Thinking Process”可视化功能，允许开发者实时查看模型的推理路径，大幅提升了人机协作的透明度与可解释性。",
+      "source": "The Verge",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.98,
+      "tags": [
+        "大语言模型",
+        "深度推理",
+        "Anthropic"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-04-0/800/400",
+      "url": "https://www.theverge.com/2026/03/04/anthropic-claude-3-7-opus-release",
+      "context": "标志着 Anthropic 正式杀入深度推理模型（System 2 thinking）赛道，对 OpenAI 的 o 系列模型构成直接且强有力的挑战，大模型竞争进入“推理透明化”新阶段。"
+    },
+    {
+      "title": "NVIDIA 宣布 Blackwell B300 芯片进入大规模量产",
+      "summary": "NVIDIA CEO 黄仁勋确认，采用台积电 3nm 工艺的 Blackwell B300 系列芯片已正式进入大规模量产阶段。相比上一代 B200，B300 在 FP8 训练性能上提升了 25%，并集成了更先进的 NVLink Switch 互联技术。首批产能将优先交付给微软、Meta 和 AWS 等核心客户，预计将于 2026 年第三季度实现全球市场的全面供应。",
+      "source": "TechCrunch",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.95,
+      "tags": [
+        "AI芯片",
+        "NVIDIA",
+        "算力基础设施"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-04-1/800/400",
+      "url": "https://techcrunch.com/2026/03/04/nvidia-blackwell-b300-mass-production",
+      "context": "算力是当前 AI 发展的核心基础设施。B300 的量产标志着全球算力底座的又一次重大升级，直接决定了下一代超大规模 AI 模型的训练规模与能力上限。"
+    },
+    {
+      "title": "欧盟 AI 法案更新：全球首设通用大模型能耗上限",
+      "summary": "欧盟委员会发布《人工智能法案》补充细则，强制要求在欧盟运营的通用大模型（GPAI）披露训练能耗数据。对于参数量超 1000 亿且能耗超标的模型，开发者必须提交环境影响评估并采取碳补偿措施。违规企业最高将面临其全球年营业额 3% 的巨额罚款。此举旨在强制推动 AI 产业向绿色低碳计算转型。",
+      "source": "Reuters",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.92,
+      "tags": [
+        "AI监管",
+        "绿色计算",
+        "欧盟AI法案"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-04-2/800/400",
+      "url": "https://www.reuters.com/technology/eu-ai-act-energy-regulations-2026-03-04",
+      "context": "这是全球首个针对 AI 训练能耗的强制性监管政策。随着模型规模呈指数级增长，能耗已成为核心制约因素，该法案将深刻影响科技巨头的算力部署与数据中心选址策略。"
+    },
+    {
+      "title": "Figure AI 获 8 亿美元融资，加速人形机器人量产",
+      "summary": "人形机器人头部初创企业 Figure AI 宣布完成 8 亿美元 C 轮融资，由英伟达、OpenAI 和微软联合领投。本轮巨额资金将主要用于扩建德克萨斯州的机器人制造工厂，并进一步优化其端到端神经网络控制模型。公司计划在 2026 年底前，向汽车制造合作伙伴交付首批 500 台具备自主操作能力的 Figure 03 机器人。",
+      "source": "Hacker News",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.9,
+      "tags": [
+        "人形机器人",
+        "具身智能",
+        "AI融资"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-04-3/800/400",
+      "url": "https://news.ycombinator.com/item?id=43256789",
+      "context": "这是人形机器人领域迄今最大规模的融资之一，且集结了 AI 算力与算法领域的顶级巨头，预示着具身智能（Embodied AI）正跨越研发阶段，进入实质性的商业化落地关键期。"
+    },
+    {
+      "title": "OpenAI 推出 o3-mini-high 性能增强版，推理提速 40%",
+      "summary": "OpenAI 正式向 API 用户推送 o3-mini-high 版本。该更新在维持原有复杂推理逻辑深度的前提下，通过底层优化（KV 缓存管理和算子融合），将复杂推理任务的响应速度大幅提升了 40%。此外，基准测试表明其在 MATH 和 GPQA 数据集上的准确率较上一代提升了 3.2%，进一步优化了长上下文实时交互的体验。",
+      "source": "OpenAI Blog",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.88,
+      "tags": [
+        "OpenAI",
+        "模型优化",
+        "AI推理"
+      ],
+      "image": "https://picsum.photos/seed/ai-2026-03-04-4/800/400",
+      "url": "https://openai.com/news/o3-mini-high-update",
+      "context": "在 Anthropic 发布竞品之际，OpenAI 通过提升推理速度和降低延迟成本来巩固其在企业级 API 市场的护城河，反映了当前 LLM 领域对“推理效率优化”的极度重视。"
+    }
+  ],
+  "meta": {
+    "agents_used": [
+      "gemini"
+    ],
+    "total_raw": 8,
+    "after_dedup": 5,
+    "final_selected": 5,
+    "generated_at": "2026-03-04T11:10:00.351Z",
+    "cost_usd": 0.002323
+  }
+}
