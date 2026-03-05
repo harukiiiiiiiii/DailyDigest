@@ -284,6 +284,9 @@ export async function runReactAgent(
       console.log(
         `    [react] iteration ${iteration + 1}: final output (${finalText.length} chars)`,
       );
+      if (finalText.length < 50 || !finalText.includes("[")) {
+        console.log(`    [react] ⚠ final text preview: ${finalText.slice(0, 500)}`);
+      }
 
       history.push({ role: "model", parts });
 
@@ -390,6 +393,11 @@ export async function runReactAgent(
     .filter((p: any) => p.text)
     .map((p: any) => p.text)
     .join("");
+
+  console.log(`    [react] forced output (${finalText.length} chars)`);
+  if (finalText.length < 50 || !finalText.includes("[")) {
+    console.log(`    [react] ⚠ final text preview: ${finalText.slice(0, 1000)}`);
+  }
 
   const finalMeta = finalData.usageMetadata ?? {};
   totalInput += finalMeta.promptTokenCount ?? 0;

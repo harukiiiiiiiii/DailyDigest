@@ -131,6 +131,12 @@ export async function runChannel(
   const totalValid = allItems.filter((it) => it._urlValid).length;
   console.log(`  ✓ Search done: ${totalRaw} raw → ${totalAfterEnrich} enriched (${totalValid} URL verified)`);
 
+  // Guard: no search results → skip integration
+  if (totalRaw === 0) {
+    console.warn(`  ⚠ No search results found — skipping integration`);
+    throw new Error(`No search results found for channel "${channel.name}". Check API key or try again.`);
+  }
+
   // Layer 2: integration
   console.log("  Layer 2: integrating...");
   const { digest, costUsd: integrationCost, durationMs } = await integrate({
