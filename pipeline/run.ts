@@ -13,10 +13,7 @@
  *   npx tsx pipeline/run.ts --dry-run                                   # don't write files
  */
 import "dotenv/config";
-import { runAll, runChannel } from "./runner";
-import fs from "fs";
-import path from "path";
-import type { ChannelConfig } from "./types";
+import { runAll, runChannel, loadChannels } from "./runner";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -83,14 +80,11 @@ async function main() {
   }
 
   if (opts.channel) {
-    const channelsPath = path.join(process.cwd(), "data", "channels.json");
-    const channels: ChannelConfig[] = JSON.parse(
-      fs.readFileSync(channelsPath, "utf-8"),
-    );
-    const ch = channels.find((c) => c.id === opts.channel);
+    const allChannels = loadChannels();
+    const ch = allChannels.find((c) => c.id === opts.channel);
     if (!ch) {
       console.error(`Channel "${opts.channel}" not found.`);
-      console.error(`Available: ${channels.map((c) => c.id).join(", ")}`);
+      console.error(`Available: ${allChannels.map((c) => c.id).join(", ")}`);
       process.exit(1);
     }
     if (opts.agents) ch.agentCombo = opts.agents;

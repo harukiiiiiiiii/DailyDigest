@@ -61,7 +61,50 @@ export function parseItemsFromText(text: string): RawSearchItem[] {
     }
   }
 
+  // 4. Truncated JSON repair: try to close incomplete array
+  if (arrStart !== -1) {
+    const repaired = repairTruncatedArray(text.slice(arrStart));
+    if (repaired) {
+      const items = tryParseArray(repaired);
+      if (items.length > 0) return items;
+    }
+  }
+
   return [];
+}
+
+/**
+ * Attempt to repair a truncated JSON array by finding the last complete object
+ * and closing the array. Handles cases where the model output was cut off.
+ */
+function repairTruncatedArray(text: string): string | null {
+  // Find positions of all complete objects (ending with "}")
+  let lastCompleteEnd = -1;
+  let depth = 0;
+  let inString = false;
+  let escape = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (escape) { escape = false; continue; }
+    if (ch === "\\") { escape = true; continue; }
+    if (ch === '"') { inString = !inString; continue; }
+    if (inString) continue;
+
+    if (ch === "{") depth++;
+    else if (ch === "}") {
+      depth--;
+      if (depth === 0) lastCompleteEnd = i;
+    }
+  }
+
+  if (lastCompleteEnd <= 0) return null;
+
+  // Slice up to last complete object, close the array
+  const candidate = text.slice(0, lastCompleteEnd + 1).trimEnd();
+  // Remove any trailing comma
+  const cleaned = candidate.replace(/,\s*$/, "");
+  return cleaned + "\n]";
 }
 
 function tryParseArray(text: string): RawSearchItem[] {

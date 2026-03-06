@@ -72,7 +72,7 @@ async function checkUrlReachable(url: string): Promise<boolean> {
 
 // ─── Title Similarity ─────────────────────────────────────────
 
-function titleSimilarity(a: string, b: string): number {
+export function titleSimilarity(a: string, b: string): number {
   const bigramsOf = (s: string): Set<string> => {
     const clean = s.replace(/\s+/g, "").toLowerCase();
     const set = new Set<string>();
@@ -93,7 +93,7 @@ function titleSimilarity(a: string, b: string): number {
 
 // ─── Deduplication ─────────────────────────────────────────────
 
-function deduplicateItems(items: RawSearchItem[], threshold = 0.45): RawSearchItem[] {
+export function deduplicateItems(items: RawSearchItem[], threshold = 0.45): RawSearchItem[] {
   const kept: RawSearchItem[] = [];
   const removed = new Set<number>();
 

@@ -35,7 +35,7 @@ function getDb() {
 }
 
 // ─── Helpers ──────────────────────────────────────────────────
-function loadChannels(): ChannelConfig[] {
+export function loadChannels(): ChannelConfig[] {
   // Try DB first, fallback to JSON
   try {
     const pipelineDb = getDb();
@@ -77,6 +77,23 @@ function ensureDir(dir: string) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
+// ─── Progress Events ─────────────────────────────────────────
+export type ProgressEvent =
+  | { phase: "search_start"; agents: string[] }
+  | { phase: "search_iteration"; agent: string; iteration: number; tools: number }
+  | { phase: "search_tool"; agent: string; tool: string; query?: string; url?: string }
+  | { phase: "search_tool_result"; agent: string; tool: string; count?: number; success?: boolean; title?: string }
+  | { phase: "search_done"; agent: string; items: number; cost: number; durationMs: number }
+  | { phase: "enrich_start" }
+  | { phase: "enrich_done"; raw: number; enriched: number; verified: number }
+  | { phase: "integrate_start" }
+  | { phase: "integrate_done"; articles: number; cost: number; durationMs: number }
+  | { phase: "write_start" }
+  | { phase: "done"; articles: number; totalCost: number }
+  | { phase: "error"; message: string };
+
+export type OnProgress = (event: ProgressEvent) => void;
+
 // ─── Run a single channel ─────────────────────────────────────
 export async function runChannel(
   channel: ChannelConfig,
@@ -84,6 +101,7 @@ export async function runChannel(
   dryRun = false,
   agentModelOverrides?: Record<string, string>,
   integrationModelName?: string,
+  onProgress?: OnProgress,
 ): Promise<DailyDigest> {
   const weekday = weekdayOf(date);
   console.log(`\n▶ ${channel.name} (${channel.id}) — ${date} ${weekday}`);
@@ -96,6 +114,7 @@ export async function runChannel(
 
   // ReAct agent handles planning internally — no external planner needed
   console.log("  ReAct search (planning + searching + verifying)...");
+  onProgress?.({ phase: "search_start", agents: agentIds });
   const ctx: SearchContext = {
     channelName: channel.name,
     keywords: channel.keywords,
@@ -116,6 +135,7 @@ export async function runChannel(
 
   // Enrich results (resolve URLs + validate + deduplicate)
   console.log("  Enriching & deduplicating...");
+  onProgress?.({ phase: "enrich_start" });
   for (const r of results) {
     const before = r.items.length;
     r.items = await enrichResults(r.items);
@@ -130,6 +150,7 @@ export async function runChannel(
   const totalAfterEnrich = allItems.length;
   const totalValid = allItems.filter((it) => it._urlValid).length;
   console.log(`  ✓ Search done: ${totalRaw} raw → ${totalAfterEnrich} enriched (${totalValid} URL verified)`);
+  onProgress?.({ phase: "enrich_done", raw: totalRaw, enriched: totalAfterEnrich, verified: totalValid });
 
   // Guard: no search results → skip integration
   if (totalRaw === 0) {
@@ -139,6 +160,7 @@ export async function runChannel(
 
   // Layer 2: integration
   console.log("  Layer 2: integrating...");
+  onProgress?.({ phase: "integrate_start" });
   const { digest, costUsd: integrationCost, durationMs } = await integrate({
     channelId: channel.id,
     channelName: channel.name,
@@ -168,9 +190,11 @@ export async function runChannel(
     `  ✓ Done: ${digest.articles.length} articles, ` +
     `$${digest.meta.cost_usd.toFixed(4)} total, ${durationMs}ms integration`,
   );
+  onProgress?.({ phase: "integrate_done", articles: digest.articles.length, cost: digest.meta.cost_usd, durationMs });
 
   // Write output
   if (!dryRun) {
+    onProgress?.({ phase: "write_start" });
     // Write to SQLite
     const pipelineDb = getDb();
 
@@ -235,6 +259,7 @@ export async function runChannel(
     console.log(JSON.stringify(digest, null, 2));
   }
 
+  onProgress?.({ phase: "done", articles: digest.articles.length, totalCost: digest.meta.cost_usd });
   return digest;
 }
 

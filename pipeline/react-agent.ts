@@ -192,7 +192,7 @@ async function callGeminiNoTools(
     system_instruction: { parts: [{ text: systemPrompt }] },
     contents: history,
     generationConfig: {
-      maxOutputTokens: cfg.maxTokens,
+      maxOutputTokens: Math.max(cfg.maxTokens, 8192),
       temperature: 0.2,
     },
   });
@@ -284,8 +284,9 @@ export async function runReactAgent(
       console.log(
         `    [react] iteration ${iteration + 1}: final output (${finalText.length} chars)`,
       );
-      if (finalText.length < 50 || !finalText.includes("[")) {
-        console.log(`    [react] ⚠ final text preview: ${finalText.slice(0, 500)}`);
+      console.log(`    [react] final text preview: ${finalText.slice(0, 1000)}`);
+      if (finalText.length > 1000) {
+        console.log(`    [react] final text tail: ...${finalText.slice(-500)}`);
       }
 
       history.push({ role: "model", parts });
@@ -395,8 +396,9 @@ export async function runReactAgent(
     .join("");
 
   console.log(`    [react] forced output (${finalText.length} chars)`);
-  if (finalText.length < 50 || !finalText.includes("[")) {
-    console.log(`    [react] ⚠ final text preview: ${finalText.slice(0, 1000)}`);
+  console.log(`    [react] forced text preview: ${finalText.slice(0, 1500)}`);
+  if (finalText.length > 1500) {
+    console.log(`    [react] forced text tail: ...${finalText.slice(-500)}`);
   }
 
   const finalMeta = finalData.usageMetadata ?? {};

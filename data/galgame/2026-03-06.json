@@ -1,0 +1,38 @@
+{
+  "date": "2026-03-06",
+  "weekday": "周五",
+  "channel": "galgame",
+  "topic": "Voltage宣布举办大型线下活动",
+  "digest": "今日视觉小说领域动态聚焦于线下活动。知名乙女游戏厂商Voltage宣布将于6月举办大型线下活动「ボルフェス2026」，预计将公布夏季新作及IP企划。",
+  "articles": [
+    {
+      "title": "ボルテージ、大型リアルイベント『ボルフェス2026』を6月13日より開催決定",
+      "summary": "知名乙女游戏厂商Voltage（ボルテージ）于2026年3月6日宣布，将于同年6月13日举办大型线下活动「ボルフェス2026」。该活动将汇聚旗下多部人气作品的角色，提供限定周边及互动体验。作为视觉小说及女性向游戏领域的领军厂商，Voltage的年度大型活动是行业关注的焦点，预示着夏季新作发布的高峰期。",
+      "source": "gamebiz.jp",
+      "sourceAgents": [
+        "GEMINI"
+      ],
+      "verified": false,
+      "importance": 0.85,
+      "tags": [
+        "Voltage",
+        "线下活动",
+        "视觉小说",
+        "乙女游戏"
+      ],
+      "image": "https://picsum.photos/seed/galgame-2026-03-06-0/800/400",
+      "url": "https://gamebiz.jp/news/391234/",
+      "context": "Voltage作为女性向视觉小说的头部厂商，其年度线下活动通常伴随重大新作发表或企划更新。虽然偏向乙女游戏，但对整体视觉小说市场的线下活动运营和IP开发具有参考价值。"
+    }
+  ],
+  "meta": {
+    "agents_used": [
+      "gemini"
+    ],
+    "total_raw": 1,
+    "after_dedup": 1,
+    "final_selected": 1,
+    "generated_at": "2026-03-06T09:48:20.669Z",
+    "cost_usd": 0.00555
+  }
+}
